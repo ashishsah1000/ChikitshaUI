@@ -1,0 +1,30 @@
+.specialist {
+  margin: 0 2rem;
+  margin-top: 6rem;
+}
+.specialistWrapper {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 2rem;
+  overflow-x: auto;
+  padding: 2rem;
+}
+.specialistCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem 2rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  min-width: 270px;
+  max-width: 270px;
+}
+.specialistCard img {
+  width: 80px;
+  height: 80px;
+}
+.specialistCard span {
+  font-family: "Lato", sans-serif;
+}

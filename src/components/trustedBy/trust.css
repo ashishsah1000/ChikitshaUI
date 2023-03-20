@@ -1,0 +1,14 @@
+.trust {
+  padding: 0 2rem;
+}
+.trustWrapper {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow-x: auto;
+}
+.trustWrapper img {
+  height: 7rem;
+  width: 7rem;
+}

@@ -1,0 +1,29 @@
+.footer {
+  background: #dcffef;
+  padding: 2rem;
+}
+.footerWrapper {
+  display: flex;
+  margin: 0 2rem;
+}
+.footerWrapper .left {
+  flex: 30%;
+}
+.footerWrapper .middle {
+  flex: 30%;
+}
+.footerWrapper .right {
+  flex: 40%;
+}
+.footerWrapper .fHead {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1rem;
+}
+.footerWrapper ul {
+  list-style: none;
+}
+.footer .copy {
+  text-align: center;
+  text-transform: lowercase;
+  margin: 1rem 0;
+}

@@ -1,0 +1,64 @@
+.review {
+  margin: 0 2rem;
+  position: relative;
+}
+.reviewWrapper {
+  position: relative;
+  width: 70%;
+  padding: 2rem 0;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  overflow-x: auto;
+  padding: 2rem 0;
+}
+.reviewWrapper .bg {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: red;
+  background: linear-gradient(to right, transparent, #fff);
+}
+.reviewCard {
+  position: relative;
+  min-width: 350px;
+  max-width: 350px;
+  background: #fff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  margin-top: 3rem;
+  padding: 2rem 1rem;
+  padding-top: 4rem;
+  text-align: center;
+}
+.reviewWrapper img {
+  position: absolute;
+  top: -4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.reviewCard .name {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  margin: 0.5rem;
+}
+.quotation {
+  position: absolute;
+  right: 0;
+  top: 13rem;
+  width: 28%;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.quotation span {
+  font-family: "Lato", sans-serif;
+  color: var(--primary-color);
+}
